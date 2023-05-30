@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+    height: 5vw;
+    background-color: rgb(246, 151, 17);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  nav {
+    width: 80vw;
+    margin: auto;
+  }
+
+  .nav div {
+    text-align: center;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
+  .main {
+    height: 10vw;
+  }
+
+  .main-block {
+    /* background-color: red; */
+    height: 100vh;
+
+    /* background-image: radial-gradient(
+        ellipse at top left,
+
+        rgba(255, 166, 0, 0.685),
+        aqua,
+        aqua
+      ); */
+
+    background-image: radial-gradient(ellipse at top left,
+
+        rgba(255, 166, 0, 0.685),
+        rgba(0, 255, 255, 0),
+        rgba(0, 255, 255, 0))
+  }
+
+  .main-block article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-block .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.left h3{
+  text-transform: capitalize;
+}
+  .main form {
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+    border: none;
+    width: 30vw;
+    height: 4vw;
+    border-radius: 3vw;
+  }
+
+  .btn {
+    padding: 0vw 1.5vw;
+    font-size: 1.2vw;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 0vw 1vw 1vw 0vw;
+    background-color: black;
+    color: white;
+
+  }
+
+  .input {
+    border: 1px solid grey;
+
+    background: transparent;
+    font-size: 1.2vw;
+    width: 100%;
+    padding: 0vw 2vw;
+    border-radius: 1vw 0vw 0vw 1vw;
+    background-color: white;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+    color: brown;
+    font-weight: 600;
+  }
+
+  .top h1 {
+    font-size: 2vw;
+  }
+
+  .top h2 {
+    font-size: 1.5vw;
+  }
+
+  .upper-temp {
+    width: 30vw;
+    text-align: center;
+    padding: 1vw 0vw;
+    font-size: 2vw;
+    color: red;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-bottom: 1vw;
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+  }
+  .min{
+    font-size: 1vw;
+    color: gray;
+  }
+  .max{
+    font-size: 1vw;
+    color: gray;
+  }
+  .right{
+    margin-top: 2.5vw;
+  }
+  .left{
+    margin-top: 2.5vw;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {
+      height: 10vw;
+
+    }
+
+    nav {
+      width: 80vw;
+      margin: auto;
+    }
+
+    .nav div {
+      text-align: center;
+      color: white;
+      font-size: 4vw;
+      font-weight: 500;
+    }
+    .main{
+      height: 20vw;
+    }
+
+    
+    .main form{
+      width: 40vw;
+      height: 6vw;
+      
+    }
+    .input{
+      font-size: 2.5vw;
+      width: 80%;
+    }
+    .btn{
+      width: 30%;
+      font-size: 2vw;
+    }
+    .card-block{
+      width: 90vw;
+    }
+   .top{
+    width: 80vw;
+    font-size: 2vw;
+   }
+   .top h1{
+    font-size: 5vw;
+   }
+   .top h2{
+    font-size: 5vw;
+   }
+   .upper-temp{
+    width: 80vw;
+    font-size: 3vw;
+   }
+   .img{
+    height: 15vw;
+    width: 15vw;
+   }
+   .temp{
+    font-size: 2.5vw;
+   }
+   .min{
+    font-size: 2.5vw;
+    color: gray;
+  }
+  .max{
+    font-size: 2.5vw;
+    color: gray;
+  }
+  .right{
+    margin-top: 3vw;
+  }
+  .left{
+    margin-top: 3vw;
+  }
+  .right .temp{
+    font-size: 3vw;
+  }
+  .upper-temp{
+    font-size: 5vw;
+  }
+
+  }
+  @media screen and (max-width: 541px){
+   
+    .min{
+      font-size: 3.5vw;
+      color: gray;
+    }
+    .max{
+      font-size: 3.5vw;
+      color: gray;
+    }
+
+    .header {
+      height: 18vw;
+
+    }
+
+    nav {
+      width: 80vw;
+      margin: auto;
+    }
+
+    .nav div {
+      text-align: center;
+      color: white;
+      font-size: 6vw;
+      font-weight: 500;
+    }
+    .main{
+      height: 25vw;
+    }
+
+    
+    .main form{
+      width: 60vw;
+      height: 10vw;
+      
+    }
+    .input{
+      font-size: 3.5vw;
+      width: 80%;
+    }
+    .btn{
+      width: 30%;
+      font-size: 3vw;
+    }
+    .card-block{
+      width: 80vw;
+    }
+   .top{
+    width: 80vw;
+    font-size: 2vw;
+   }
+   .top h1{
+    font-size: 6vw;
+   }
+   .top h2{
+    font-size: 6vw;
+   }
+   .upper-temp{
+    width: 80vw;
+    font-size: 4vw;
+   }
+   .img{
+    height: 20vw;
+    width: 20vw;
+  }
+  .right{
+    margin-top: 5vw;
+  }
+  .left{
+    margin-top: 5vw;
+  }
+ .right .temp{
+    font-size: 4vw;
+  }
+  .upper-temp{
+    font-size: 5vw;
+  }
+}
